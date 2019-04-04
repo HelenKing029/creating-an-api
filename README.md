@@ -4,17 +4,27 @@
 
 `pip install flask-restful`
 
+
+## API Testing Tool: 
+
+Choose your testing tool. I chose Postman for mine. 
+
+Postman: https://www.getpostman.com/downloads/
+
+
 ## Available HTTP Requests you can do: 
   Get Users
   Post/Add Users
   Put/Update Users
   Delete a User
  
+ 
 ## Testing in Postman: 
 
   Run the program in your Terminal. 
 
   In Postman select your request type. Enter your URL/user/[NAME]
+
 
 ## Update a User in Postman: 
 
