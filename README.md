@@ -18,23 +18,37 @@ Postman: https://www.getpostman.com/downloads/
 
 The HTTP Requests you can do are listed here:
 
-  - Get - Retrieve a selected user
-  - Post - Creating a new user
-  - Put - Update an existing user or create a new one
-  - Delete - Delete a User from the stored data 
+  - GET - Retrieve a selected user
+  - POST - Creating a new user
+  - PUT - Update an existing user or create a new one
+  - DELETE - Delete a User from the stored data 
  
  
 ## Testing in Postman
 
-  Run the program in your Terminal. 
+First run your program in your Terminal. 
 
-  In Postman select your request type. Enter your URL/user/[NAME]
+  - In Postman select your HTTP Request type from the list above. 
+  - Enter your URL: ```http://YOUR-URL/user/[NAME]```
+  - Click on Send
 
 
-## Update a User in Postman
+#### Create a New User
 
-  Select Put, change the name you wish to update. 
-  On the Headers section add the "age" and "occupation" Keys and their associated Value
+  - Select POST, and enter the name you wish to add.```Enter your URL/user/[NAME]```
+  - On the Headers section add the "age" and "occupation" Keys and their associated Values
+  - Click on Send
+  
+#### Update a User in Postman
+
+  - Select PUT, change the URL to the name you wish to update ```Enter your URL/user/[NAME]```
+  - On the Headers section add the "age" and "occupation" Keys and their associated Value
+  - Click on Send
+  
+#### Delete a User
+
+   - Select DELETE, update your URL to the one you wish to remove. ```Enter your URL/user/[NAME]```
+   - Click on Send
 
 
   
