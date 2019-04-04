@@ -1,6 +1,4 @@
-# creating-an-api
-
-Creating My First API
+# Creating My First API
 
 Available HTTP Requests you can do: 
   Get Users
