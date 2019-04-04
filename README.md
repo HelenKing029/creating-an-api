@@ -22,16 +22,16 @@ The HTTP Requests you can do are listed here:
   - POST - Creating a new user
   - PUT - Update an existing user or create a new one
   - DELETE - Delete a User from the stored data 
- 
- 
+
 ## Testing in Postman
 
 First run your program in your Terminal. 
 
-  - In Postman select your HTTP Request type from the list above. 
-  - Enter your URL: ```http://YOUR-URL/user/[NAME]```
+#### Retrieve a User from the stored data
+  
+  - Select GET, Enter your URL with the name you wish to retrieve ```http://YOUR-URL/user/[NAME]``` 
   - Click on Send
-
+  - The results will be displayed below
 
 #### Create a New User
 
