@@ -35,19 +35,19 @@ First run your program in your Terminal.
 
 #### Create a New User
 
-  - Select POST, and enter the name you wish to add.```Enter your URL/user/[NAME]```
+  - Select POST, and enter the name you wish to add.```http://YOUR-URL/user/[NAME]```
   - On the Headers section add the "age" and "occupation" Keys and their associated Values
   - Click on Send
   
 #### Update a User in Postman
 
-  - Select PUT, change the URL to the name you wish to update ```Enter your URL/user/[NAME]```
+  - Select PUT, change the URL to the name you wish to update ```http://YOUR-URL/user/[NAME]```
   - On the Headers section add the "age" and "occupation" Keys and their associated Value
   - Click on Send
   
 #### Delete a User
 
-   - Select DELETE, update your URL to the one you wish to remove. ```Enter your URL/user/[NAME]```
+   - Select DELETE, update your URL to the one you wish to remove. ```http://YOUR-URL/user/[NAME]```
    - Click on Send
 
 
