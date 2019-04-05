@@ -39,7 +39,7 @@ First run your program in your Terminal.
   - On the Headers section add the "age" and "occupation" Keys and their associated Values
   - Click on Send
   
-#### Update a User in Postman
+#### Update a User
 
   - Select PUT, change the URL to the name you wish to update ```http://YOUR-URL/user/[NAME]```
   - On the Headers section add the "age" and "occupation" Keys and their associated Value
